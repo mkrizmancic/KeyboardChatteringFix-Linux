@@ -72,10 +72,10 @@ sudo python3 -m src
 - -v {0,1,2}, --verbosity {0,1,2}
 
 - -c CONFIG_PATH, --config-path CONFIG_PATH
-  - Path to the configuration file specifying the threshold for each key (absolute or relative to the main project directory). Default path is `config.yaml` in main project directory. If file does not exist, the default threshold or the provided THRESHOLD will be used for all keys.
+  - Path to the configuration file specifying the threshold for each key (absolute or relative to the main project directory). The default path is `config.yaml` in the main project directory. If the file does not exist, the default threshold or the provided THRESHOLD will be used for all keys.
 
 - -n, --new-config
-  - Create a new configuration file at CONFIG_PATH with commented out entries for all available keys for a given keyboard. To customize the threshold for a key, uncomment the line and set the threshold valu in miliseconds.
+  - Create a new configuration file at CONFIG_PATH with commented-out entries for all available keys for a given keyboard. To customize the threshold for a key, uncomment the line and set the threshold value in milliseconds.
 
 ## Automation
 
